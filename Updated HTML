@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Media Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Media Showcase</h1>
+  </header>
+
+  <main>
+    <section class="media-section">
+      <h2>Educational Video</h2>
+      <div class="video-container">
+        <video controls width="640" poster="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.1&auto=format&fit=crop&w=800&q=80">
+          <source src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-caption">An insightful educational video about the map method in JavaScript.</div>
+      </div>
+    </section>
+
+    <section class="media-section">
+      <h2>Sailing Away</h2>
+      <div class="audio-container">
+        <audio controls loop src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"></audio>
+        <div class="audio-caption">Relaxing sailing-themed music to unwind.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Media Showcase. All rights reserved.</p>
+  </footer>
+</body>
+</html>
